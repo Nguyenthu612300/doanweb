@@ -1,0 +1,117 @@
+
+.product-detail-left{
+    margin-left: 5%;
+
+}
+.product-detail-right{
+    margin-left:10% ;
+    margin-top: 5%;
+
+}
+.product-detail-right, .title, .icon-view,.product-detail-price,.product-detail-quantity,.add-to-card{
+    margin-bottom: 10%;
+}
+.product-detail{
+    display: flex;
+    margin-top: 20px;
+}
+.product-detail-img{
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 10px;
+}
+.product-detail-img img{
+    width: 500px;
+    height: 500px;
+    
+}
+.product-detail-img img:hover,.product-detail-img-small img:hover{
+    opacity: 0.85;
+}
+.product-detail-img-small{
+    display: flex;
+    justify-content: center;
+}
+.product-detail-img-small img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.container{
+    width: 90%;
+    margin: 0px 5%;
+    border: 1px solid #ccc;
+}
+.product-detail-price{
+    display: flex;
+   
+}
+.price-old small{
+    margin-left:10px ;
+    color: #ccc;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+.price-new small,strong{
+    font-size: 18px;
+}
+.icon-view{
+    display: flex;
+}
+.icon i{
+    font-size: 18px;
+}
+.icon-view .view{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.title h3{
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.title-quantity{
+    margin-bottom: 15px;
+}
+.product-detail-quantity .addd,.minus{
+    padding: 6px;
+    border: 1px solid #000;
+    color: black;
+    border-radius: 4px;
+    background: none;
+   transition:  0.3s ease-in-out;
+}
+.product-detail-quantity .addd:hover,.minus:hover{
+    background-color: #000;
+    color: white;
+}
+
+.product-detail-quantity input{
+    font-family: 'Montserrat', sans-serif;
+    width: 60px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    font-weight: 100;
+}
+.title,.view,.title-quantity,.btnn{
+    text-transform: uppercase;
+
+}
+.btnn{
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: wheat;
+   font-family: 'Times New Roman', Times, serif;
+   transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.btnn:hover{
+    
+    opacity: 0.70;
+}
